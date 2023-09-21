@@ -3,7 +3,7 @@ import "./App.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { CSVLink } from "react-csv";
+// import { CSVLink } from "react-csv";
 import {
   saleFareHeaders,
   saleDetailsHeaders,
@@ -1916,7 +1916,7 @@ class App extends Component {
                   </div>
 
                   <div className="form-group col-md-3">
-                    <CSVLink
+                    {/* <CSVLink
                       data={saleDetailsHeaders}
                       filename={this.state.mycsvsaledetailsfilename + ".csv"}
                       className="btn btn-warning csv-sale-details"
@@ -1932,7 +1932,7 @@ class App extends Component {
                       target="_blank"
                     >
                       <i className="fa fa-download"></i> CSV Fares
-                    </CSVLink>
+                    </CSVLink> */}
                   </div>
                 </div>
               </div>
